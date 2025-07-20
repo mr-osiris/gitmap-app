@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gitmap-app/static/css/main.2956c0c3.css",
+    "main.js": "/gitmap-app/static/js/main.dece619d.js",
+    "static/js/453.ae3c0337.chunk.js": "/gitmap-app/static/js/453.ae3c0337.chunk.js",
+    "index.html": "/gitmap-app/index.html",
+    "main.2956c0c3.css.map": "/gitmap-app/static/css/main.2956c0c3.css.map",
+    "main.dece619d.js.map": "/gitmap-app/static/js/main.dece619d.js.map",
+    "453.ae3c0337.chunk.js.map": "/gitmap-app/static/js/453.ae3c0337.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2956c0c3.css",
+    "static/js/main.dece619d.js"
+  ]
+}
