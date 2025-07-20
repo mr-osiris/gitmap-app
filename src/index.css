@@ -1,0 +1,43 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for a cleaner look (optional) */
+body {
+  font-family: 'Inter', sans-serif; /* Apply Inter font globally */
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.gray.200'); /* Light gray track */
+  border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: theme('colors.gray.700'); /* Dark gray track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.blue.500'); /* Blue thumb */
+  border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: theme('colors.blue.600'); /* Darker blue thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.blue.600'); /* Darker blue on hover */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.blue.700');
+}
