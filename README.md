@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+#GitMap: A GitHub Explorer Web Application
+GitMap is a modern web application designed to explore GitHub user and organization profiles with key insights and data visualizations. Built with a contemporary tech stack, it provides a clean and functional interface for understanding GitHub activity.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Features
+GitMap allows you to:
 
-## Available Scripts
+-Search GitHub Profiles: Input any GitHub username to fetch and display their public profile information.
 
-In the project directory, you can run:
+-Core Profile Details: View user avatar, name, bio, location, follower/following counts, and join date.
 
-### `npm start`
+-Public Repository Listing: See a list of the user's public repositories, complete with star and fork counts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Contribution Timeline: Visualize a user's last year of contributions (weekly/monthly aggregation) using interactive charts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Repository Growth Chart: Track the total commit activity across a user's public repositories over time.
 
-### `npm test`
+-Organization Contributor Map: If the profile belongs to an organization, fetch and display the geolocations of its public contributors on an interactive map. (Note: Geolocation data is mocked for demonstration  purposes; a real-world application would integrate with a geocoding service.)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Profile Comparison: Compare key metrics (contributions, repo activity, followers) of two GitHub profiles side-by-side.
 
-### `npm run build`
+-Dark/Light Theme Toggle: Switch between dark and light modes, with your preference saved locally in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Robust Error Handling: Custom messages for invalid usernames (404), API rate limits, and other unexpected errors.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Tech Stack
+GitMap is built using the following modern web technologies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Frontend Framework: React (with Functional Components and Hooks)
 
-### `npm run eject`
+-Styling: TailwindCSS for utility-first, responsive design.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+API Interaction:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-GitHub REST API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-GitHub GraphQL API (for richer data like contribution calendar)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-Axios for HTTP requests
 
-## Learn More
+-Data Visualization: Chart.js and react-chartjs-2 for dynamic charts.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Geolocation Mapping: Leaflet.js and react-leaflet for interactive maps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Routing: React Router for seamless page navigation.
 
-### Code Splitting
+-State & Persistence: LocalStorage for saving user preferences (e.g., theme).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-Date Management: date-fns for easy date formatting and calculations.
 
-### Analyzing the Bundle Size
+#Dark mode
+<img width="1079" height="1768" alt="Screenshot 2025-07-20 234612" src="https://github.com/user-attachments/assets/a5cc5211-1f8d-4c80-8d38-60a740f521c4" />
+<img width="1047" height="1475" alt="Screenshot 2025-07-20 234425" src="https://github.com/user-attachments/assets/e2c26a73-6aca-4c4c-b037-1c6febc7f305" />
+<img width="1078" height="1771" alt="Screenshot 2025-07-20 234407" src="https://github.com/user-attachments/assets/b6661b92-6075-4b2c-b70b-bf1902d4729c" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#Light mode
+<img width="1079" height="1769" alt="Screenshot 2025-07-20 234444" src="https://github.com/user-attachments/assets/cc5ee176-8161-4887-abfe-c0fabc6e7372" />
+<img width="1058" height="1491" alt="Screenshot 2025-07-20 234457" src="https://github.com/user-attachments/assets/c8889013-4ab3-4abb-84d8-c229253f63e6" />
+<img width="1079" height="1770" alt="Screenshot 2025-07-20 234555" src="https://github.com/user-attachments/assets/5a617050-c411-4f90-91eb-10fb5e0a4422" />
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
