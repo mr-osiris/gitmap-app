@@ -48,7 +48,7 @@ Routing: React Router for seamless page navigation.
 
 -Date Management: date-fns for easy date formatting and calculations.
 
-#Dark mode
+# Dark mode
 <img width="1079" height="1768" alt="Screenshot 2025-07-20 234612" src="https://github.com/user-attachments/assets/a5cc5211-1f8d-4c80-8d38-60a740f521c4" />
 <img width="1047" height="1475" alt="Screenshot 2025-07-20 234425" src="https://github.com/user-attachments/assets/e2c26a73-6aca-4c4c-b037-1c6febc7f305" />
 <img width="1078" height="1771" alt="Screenshot 2025-07-20 234407" src="https://github.com/user-attachments/assets/b6661b92-6075-4b2c-b70b-bf1902d4729c" />
