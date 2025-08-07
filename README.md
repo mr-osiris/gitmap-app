@@ -60,5 +60,4 @@ Routing: React Router for seamless page navigation.
 
 
 __Currently it's facing and issue of API__
-
 __It will be resolved soon__
