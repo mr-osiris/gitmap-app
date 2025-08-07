@@ -53,7 +53,7 @@ Routing: React Router for seamless page navigation.
 <img width="1047" height="1475" alt="Screenshot 2025-07-20 234425" src="https://github.com/user-attachments/assets/e2c26a73-6aca-4c4c-b037-1c6febc7f305" />
 <img width="1078" height="1771" alt="Screenshot 2025-07-20 234407" src="https://github.com/user-attachments/assets/b6661b92-6075-4b2c-b70b-bf1902d4729c" />
 
-#Light mode
+# Light mode
 <img width="1079" height="1769" alt="Screenshot 2025-07-20 234444" src="https://github.com/user-attachments/assets/cc5ee176-8161-4887-abfe-c0fabc6e7372" />
 <img width="1058" height="1491" alt="Screenshot 2025-07-20 234457" src="https://github.com/user-attachments/assets/c8889013-4ab3-4abb-84d8-c229253f63e6" />
 <img width="1079" height="1770" alt="Screenshot 2025-07-20 234555" src="https://github.com/user-attachments/assets/5a617050-c411-4f90-91eb-10fb5e0a4422" />
