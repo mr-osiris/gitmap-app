@@ -59,5 +59,5 @@ Routing: React Router for seamless page navigation.
 <img width="1079" height="1770" alt="Screenshot 2025-07-20 234555" src="https://github.com/user-attachments/assets/5a617050-c411-4f90-91eb-10fb5e0a4422" />
 
 
-__Currently it's facing and issue of API__
+__Currently it's facing and issue of API.__
 __It will be resolved soon__
