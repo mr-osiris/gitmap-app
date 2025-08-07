@@ -2,7 +2,7 @@
 
 GitMap is a modern web application designed to explore GitHub user and organization profiles with key insights and data visualizations. Built with a contemporary tech stack, it provides a clean and functional interface for understanding GitHub activity.
 
-#Features
+# Features
 GitMap allows you to:
 
 -Search GitHub Profiles: Input any GitHub username to fetch and display their public profile information.
