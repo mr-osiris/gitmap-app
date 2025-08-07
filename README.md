@@ -23,7 +23,7 @@ GitMap allows you to:
 
 -Robust Error Handling: Custom messages for invalid usernames (404), API rate limits, and other unexpected errors.
 
-#Tech Stack
+# Tech Stack
 GitMap is built using the following modern web technologies:
 
 -Frontend Framework: React (with Functional Components and Hooks)
